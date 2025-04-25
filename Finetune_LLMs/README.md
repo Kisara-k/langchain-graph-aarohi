@@ -3,11 +3,6 @@
 ### Setup Environment: 
 
    ##### Install packages:
-   
-		sudo apt update && sudo apt upgrade -y
-		
-		sudo apt install git wget unzip -y
-
 		Create and activate a virtual environment:
 		
 		sudo apt install python3-pip python3-env -y
