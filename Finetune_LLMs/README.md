@@ -1,0 +1,40 @@
+### Video Tutorial: https://youtu.be/6WqGBciLQ1M
+
+### Setup Environment: 
+
+   ##### Install packages:
+   
+		sudo apt update && sudo apt upgrade -y
+		
+		sudo apt install git wget unzip -y
+
+		Create and activate a virtual environment:
+		
+		sudo apt install python3-pip python3-env -y
+		
+		python3 -m venv deepseek-env
+
+		source deepseek-env/bin/activate
+
+		##### Install Deep Learning libraries:
+		
+		pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121
+		
+		pip install transformers datasets accelerate peft bitsandbytes
+
+		Now your environment is ready.
+
+		##### Download DeepSeek-R1:7B
+		
+		pip install huggingface_hub
+		
+		huggingface-cli login
+
+
+
+
+### Run fine-tuning script:
+        python finetune_deepseekr1.py
+		
+### Run inference script:
+        python inference_deepseekr1.py
