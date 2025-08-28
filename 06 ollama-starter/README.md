@@ -69,7 +69,7 @@ ollama run llama3.1
 ## Running the Application
 
 ```bash
-streamlit run app1.py
+streamlit run app.py
 ```
 
 Open http://localhost:8501 and start chatting with your local AI!

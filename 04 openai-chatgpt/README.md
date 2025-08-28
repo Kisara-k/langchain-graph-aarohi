@@ -71,7 +71,7 @@ if prompt := st.chat_input("What is up?"):
 ## Running the Application
 
 ```bash
-streamlit run chatgpt_like_app.py
+streamlit run app.py
 ```
 
 Open http://localhost:8501 and start chatting!

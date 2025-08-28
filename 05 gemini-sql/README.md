@@ -90,7 +90,7 @@ result = db.run(sql_query)
 ## Running the Application
 
 ```bash
-streamlit run myapp2.py
+streamlit run app.py
 ```
 
 Visit http://localhost:8501 and start asking questions about your data!

@@ -52,7 +52,7 @@ if st.button("Execute"):
         
         if cleaned_query and query_result is not None:
             st.write("Generated SQL Query:")
-            st.code(response, language="sql")
+            st.code(cleaned_query, language="sql")
             st.write("Query Result:")
             st.write(query_result)
         else:

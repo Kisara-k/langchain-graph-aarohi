@@ -81,7 +81,7 @@ rag_chain = create_retrieval_chain(retriever, qa_chain)
 ## Running the Application
 
 ```bash
-streamlit run app1.py
+streamlit run app.py
 ```
 
 Visit http://localhost:8501 and start asking questions about your documents!

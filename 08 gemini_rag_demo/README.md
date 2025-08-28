@@ -59,7 +59,7 @@ Place your PDF document in the project directory. The example uses `yolov9_paper
 ## Running the Application
 
 ```bash
-streamlit run app1.py
+streamlit run app.py
 ```
 
 Open http://localhost:8501 and start analyzing your PDF documents!
